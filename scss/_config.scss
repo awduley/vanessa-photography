@@ -1,0 +1,60 @@
+$background-image: url('.././/img/background-image.jpg');
+
+$nav-background-color: rgba(0, 0, 0, .3);
+$slide-in-background-color: rgba(0, 0, 0, .95);
+
+$footer-background-color: #333;
+
+$link-color: #e0aaff;
+$border-color: #fffea5;
+
+@mixin transition {
+  transition: all 400ms ease-out;
+}
+
+@mixin slide-transition {
+  transition: all 800ms ease;
+}
+
+// Media query mixins
+@mixin super-small {
+  @media screen and (max-width: 430px) {
+    @content;
+  }
+}
+
+@mixin phone-only {
+  @media screen and (max-width: 446px) {
+    @content;
+  }
+}
+
+@mixin tablet-portrait-down {
+  @media screen and (max-width: 580px) {
+    @content;
+  }
+}
+
+@mixin tablet-portrait-up {
+  @media screen and (min-width: 581px) {
+    @content;
+  }
+}
+
+@mixin tablet-in-between-down {
+  @media screen and (max-width: 720px) {
+    @content;
+  }
+}
+
+@mixin tablet-landscape-down {
+  @media screen and (max-width: 900px) {
+    @content;
+  }
+}
+
+@mixin desktop-up {
+  @media screen and (min-width: 901px) {
+    @content;
+  }
+}

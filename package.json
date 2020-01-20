@@ -1,0 +1,17 @@
+{
+  "name": "photography-website",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "sass": "node-sass -w scss/main.scss -o css --recursive"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "autoprefixer": "^9.7.4",
+    "node-sass": "^4.13.0",
+    "postcss-cli": "^7.1.0"
+  }
+}

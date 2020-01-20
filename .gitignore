@@ -1,0 +1,27 @@
+node_modules
+
+<div class="footer-items">
+      <div class="address">
+        <p>Vanessa's Photography: 49 Northern Benson Lights Anchorage, AK 99504 Suite 101</p>
+        <iframe class="map" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1974925.646727109!2d-151.68242089530017!3d61.09295585576134!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x56c8917604b33f41%3A0x257dba5aa78468e3!2sAnchorage%2C%20AK!5e0!3m2!1sen!2sus!4v1579119067357!5m2!1sen!2sus" width="600" height="450" frameborder="0" style="border:0;" allowfullscreen=""></iframe>
+      </div>
+      <div class="links">
+        <h4>Friends</h4>
+        <a href="/">Old Tractors - H*** Yeah!</a>
+        <a href="/">Eating Ingrediently</a>
+        <a href="/">Sarah's Boutique</a>
+        <a href="/">Boring Movies</a>
+        <a href="/">The Brewers Yeast Emporium</a>
+        <a href="/">Weird Bugs & Fun Rugs</a>
+        <a href="/">It's -48 F&deg; outside and I'm stoked</a>
+      </div>
+      <div class="random">
+        <p>This website contains affiliate links. If you purchase an item by clicking through a link to an external website, we may earn a small commision on that purchase.</p>
+        <div class="footer-social-icons">
+          <i class="fab fa-facebook-square fa-2x"></i>
+          <i class="fab fa-twitter fa-2x"></i>
+          <i class="fab fa-pinterest fa-2x"></i>
+          <i class="fab fa-instagram fa-2x"></i>
+        </div>
+      </div>
+    </div>
